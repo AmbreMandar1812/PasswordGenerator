@@ -1,0 +1,108 @@
+*{
+    background-color:#1C1C1C;
+}
+
+body{
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div-container{
+    background-color: #ECFDF5;
+    position: absolute;
+    width: 550px;
+    height: 550px;  
+    border-radius: 5px;
+}
+
+#heading-container{
+    width: 332px;
+    height: 80px;
+    position: absolute;
+    top: 115px;
+    left: 52px;
+    font-family: myfont;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color:#2B283A ;
+    background-color: #ECFDF5;
+    
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Karla-Bold.ttf);
+}
+
+#msg-container{
+    background-color: #ECFDF5;
+    color: #6B7280;
+    font-size: 20px;
+    font-weight: 300;
+    white-space: nowrap;
+    margin-top: -1px;
+}
+
+#button-container{
+    /* button-size */
+    width: 191px;
+    height: 42px;
+
+    /* button-background */
+    background-color: #10B981;
+    border-radius: 2px ;
+    border: #10B981 solid;
+
+    /* button-font */
+    font-family: text-base/leading-6/font-medium;
+    font-size: 16px;
+    font-weight: 500;
+    color:#FFFFFF;
+    line-height: 24px;
+}
+
+#hr-line{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 0px;
+    top: 230px;
+    border: 1px solid #d5d4d8;
+}
+
+#passwd-containerOne{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 0px;
+    top: 300px;
+
+    background-color: #273549;
+    border-radius: 6px;
+
+    /* font styling */
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #5def92;
+}
+
+#passwd-containerTwo{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 240px;
+    top: 300px;
+
+    background-color: #273549;
+    border-radius: 6px;
+
+    /* font styling */
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #5def92;
+}
